@@ -1,0 +1,134 @@
+.cardinfo{
+    padding: 30px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 700px;
+    width: 500px;    
+}
+
+.cardinfo_box{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cardinfo_box_title{
+    font-weight: bold;
+    font-size: larger;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.cros{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    
+}
+
+.cros svg{
+    cursor: pointer;
+}
+
+.cardinfo_box_body input{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    outline: none;
+}
+
+.cardinfo_box_body{
+    width: fit-content;
+}
+
+.cardinfo_box_colors{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+}
+
+.cardinfo_box_colors li{
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    list-style: none;
+    border: 3px solid transparent;
+    transition: 200ms;
+}
+
+.cardinfo_box_colors .active{
+    border: 3px solid blue;
+}
+
+.cardinfo_box_progressbar{
+    height: 10px;
+    border-radius: 20px;
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+.cardinfo_box_progress{
+    background-color: blue;
+    height: 10px;
+    border-radius: 20px;
+}
+
+.cardinfo_box_list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cardinfo_task{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 0;
+}
+
+.cardinfo_task input,.cardinfo_task svg{
+    height: 18px;
+    width: 18px;
+}
+
+.cardinfo_task p{
+    line-height: 20px;
+    flex: 1;
+    margin-top: 15px;
+}
+
+.cardinfo_box_labels label{
+    /* display: flex;
+    gap: 10px;
+    flex-wrap: wrap; */
+    /* border-radius: 40px; */
+    background-color: gray;
+    color: #fff;
+    padding: 4px 8px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex-wrap: wrap;
+    border-radius: 50PX 20px;
+    width: fit-content;
+}
+
+.cardinfo_box_labels label svg {
+    height: 16px;
+    width: 16px;
+    cursor: pointer;
+  }
+
+ .cardinfo_box_task_checkbox{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+ }
+
+  .cardinfo_box .li_active {
+    box-shadow: 0 0 0 3px black;
+  }
